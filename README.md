@@ -9,3 +9,14 @@ O eColeta é um aplicativo desenvolvido na Next Level Week #1 usando React, Reac
 * Trabalhar com mapas na interface Web e Mobile
 * Utilizar o `Deep Linking` no React native para executar ações em aplicativos terceiros
 * Validação do formulário no frontend Web utilizando o `Yup` (https://github.com/jquense/yup)
+
+### O cliente Web cadastra os pontos de coleta
+
+![GIF](https://drive.google.com/uc?export=view&id=1mQB207jdD_jaZzUpjGgSK2krMojKgO6a)
+
+### O cliente Mobile visualiza os pontos de coleta no seu alcance
+
+Home         |  Listagem de pontos   | Contato
+:-------------------------:|:-------------------------:|:-------------------------:
+| ![Alt](https://drive.google.com/uc?export=view&id=1haTnQowStxzMyW1QCbfiI5Z1dgM64VgD) | ![Alt](https://drive.google.com/uc?export=view&id=1rP1bRLjW3-qj_wH2-khFXsX0XRSvozLK) | ![Alt](https://drive.google.com/uc?export=view&id=1KPxEPwfrAEf6K9Yu6oNGwMkztrR49DQ_) |
+ 

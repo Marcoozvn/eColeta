@@ -34,7 +34,7 @@ const schema = object().shape({
   whatsapp: string().required(),
   uf: string().required(),
   city: string().required(),
-  selectedFile: object().required(),
+  selectedFile: string().required(),
   position: array().of(number()),
   selectedItems: array().of(number()).required()
 })
@@ -107,8 +107,6 @@ const CreatePoint: React.FC = () => {
   async function handleSubmit(event: FormEvent) {
     event.preventDefault()
 
-    console.log('aa')
-
     try {
       await schema.validate({ name, email, whatsapp, city, uf, position, selectedFile, selectedItems }, { abortEarly: false })
 
@@ -128,7 +126,9 @@ const CreatePoint: React.FC = () => {
         data.append('image', selectedFile)
       }
 
-      //await api.post('/points', data)
+      console.log('aa')
+
+      await api.post('/points', data)
       setAnimation(true)
 
       setTimeout(resolve => {
@@ -138,6 +138,7 @@ const CreatePoint: React.FC = () => {
 
 
     } catch (error) {
+      console.log(console.log(error))
       const validationErrors = error as ValidationError
       const myObj: { [key: string]: string } = {}
       validationErrors.inner.forEach(field => myObj[field.path] = field.message)
