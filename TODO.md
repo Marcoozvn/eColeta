@@ -1,0 +1,6 @@
+- Utilizar o filefilter do multer pra filtrar tamanho e extensão dos arquivos -> OK
+- Animação ao submeter formulário -> OK
+- Criar regex para validar o input dos itens no formato '1,2,5' -> OK
+- Mover validação para outro arquivo -> OK
+- Ajustes CSS -> OK
+- Validação no FrontEnd
