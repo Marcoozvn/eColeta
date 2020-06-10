@@ -14,4 +14,4 @@ app.use('/uploads', express.static(path.resolve(__dirname, '..', 'uploads')))
 
 app.use(errors())
 
-app.listen(3333, () => console.log('App listening on localhost:3333'))
+export default app

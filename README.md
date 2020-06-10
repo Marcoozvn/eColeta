@@ -6,9 +6,11 @@ O eColeta é um aplicativo desenvolvido na Next Level Week #1 usando React, Reac
 * `Knex` (http://knexjs.org/) para lidar com consultas SQL e migrations;
 * `Celebrate` (https://github.com/arb/celebrate) para lidar com a validação no Backend; 
 * `Multer` (https://github.com/expressjs/multer) para lidar com o upload de imagens;
-* Trabalhar com mapas na interface Web e Mobile
-* Utilizar o `Deep Linking` no React native para executar ações em aplicativos terceiros
-* Validação do formulário no frontend Web utilizando o `Yup` (https://github.com/jquense/yup)
+* Trabalhar com mapas na interface Web e Mobile;
+* Utilizar o `Deep Linking` no React native para executar ações em aplicativos terceiros;
+* Validação do formulário no frontend Web utilizando o `Yup` (https://github.com/jquense/yup);
+* Testes no Backend utilizando o `Jest` (https://jestjs.io/) e `Supertest` (https://github.com/visionmedia/supertest);
+* Animações com o `Lottie`;
 
 ### O cliente Web cadastra os pontos de coleta
 
