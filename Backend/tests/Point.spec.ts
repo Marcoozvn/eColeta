@@ -45,6 +45,10 @@ describe('Point', () => {
       uf: 'PB'
     })
 
+    const fileCreated = fs.existsSync(path.resolve(__dirname, '..', 'uploads', response.body.image))
+
+    expect(fileCreated).toBe(true)
+
     const point_item = await connection('point_items').select('*')
 
     expect(point_item).toHaveLength(1)
